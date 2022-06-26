@@ -1,0 +1,303 @@
+/*--universal tag (*)--*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*quito relleno y margenes a esta tags*/
+figure,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------fin resets---------------------------*/
+
+/*contenedor*/
+.contenedor {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/*body ----- familia tipografica*/
+body{font-family: 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+/*header*/
+
+header{background-color:#16161a;
+
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+z-index: 4;}
+
+.dflex{display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;}
+
+    /*nav*/
+
+   
+nav ul li a{
+color: #fffffe;
+font-size: 18px;
+}
+
+  /*cambia el color al apoyar*/
+nav ul li a:hover{
+    color: #7f5af0;
+}
+
+  /*flex del nav*/
+nav ul{width: 600px;
+display: flex;
+justify-content: space-around;}
+
+nav{display: flex;
+}
+
+/*fin nav*/
+
+/*logo inicio*/
+
+.logo{color: #7f5af0;}
+
+/*fin header*/
+
+/*sobre mi*/
+
+#sobremi {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+
+     background-image: url(img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-position: 900 0 ;
+        background-attachment: fixed ;
+        background-size: cover ;
+    
+    padding-top: 225px;
+    padding-bottom: 225px;
+}
+
+.bienvenidos{color:#7f5af0;
+font-size: 36px;}
+.studio{color: #fffffe;
+font-size: 72px;}
+.bienvenidos-2 {color:#7f5af0;
+font-size: 20px;}
+
+
+/*fin sobre mi*/
+
+/*nosotras*/
+#nosotras{padding-top: 130px;
+padding-bottom: 130px;
+background-color: #16161A;}
+
+.nosotras-botonform{
+
+  color: #fffffe;
+padding-bottom: 130px;
+font-size: 40pt;
+  width: fit-content;
+  text-align: center;
+    height: 86px;
+    line-height: 120px;
+    background-color: #7f5af0;
+    margin-top: 148px;
+    border-radius: 20px;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.nosotras-2{padding-left: 392px;
+padding-right:392px;
+padding-bottom: 140px;}
+
+.info{font-size: 28pt;
+    color: #7f5af0;
+padding-right: 14px;
+}
+
+.info-2{font-size: 14pt;
+    color: #fffffe; padding-left: 14px;}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    figcaption{
+        font-size: 15px;
+        color: #fffffe;
+       padding-left: 170px;
+        padding-top: 20px;
+    }
+
+    .ariadna-1 {padding-left: 0px;
+    padding-right: 14px;
+padding-top: 120px;}
+
+.lorena-1 {padding-right: 0px;
+    padding-left: 100px;
+padding-top: 120px;}
+
+
+/*nosotras fin*/
+
+/*servicios*/
+
+
+#servicios{padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #242629;}
+
+    .servicios-botonform{
+
+        color: #fffffe;
+      padding-bottom: 130px;
+      font-size: 40pt;
+        width: fit-content;
+        text-align: center;
+          height: 86px;
+          line-height: 120px;
+          background-color: #7f5af0;
+          margin-top: 148px;
+          border-radius: 20px;
+          padding-left: 19px;
+          padding-right: 19px;
+      }
+      
+
+
+      .servicios-2{padding-left: 392px;
+        padding-right:392px;
+        padding-bottom: 140px;}
+
+        /*----------slider y textos-------*/
+.fotos-textos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.texto {
+    padding: 10px;
+    padding-top: 115px;
+    background-color: #16161A;
+    color: #fffffe;
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    margin: 15px auto;
+}
+
+
+/*fin servicios*/
+
+/*contacto*/
+
+label {
+    display: block;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
+
+.botonform {
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #7f5af0;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*fila o row y todos sus hijos*/
+.form-input {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+
+
+
+#contacto{padding-top: 130px;
+    padding-bottom: 130px;
+    background-color:  #16161A;}
+
+    .contacto-botonform{
+
+        color: #fffffe;
+      padding-bottom: 130px;
+      font-size: 40pt;
+        width: fit-content;
+        text-align: center;
+          height: 86px;
+          line-height: 120px;
+          background-color: #7f5af0;
+          margin-top: 148px;
+          border-radius: 20px;
+          padding-left: 19px;
+          padding-right: 19px;
+      }
+
+      .contacto-2{padding-left: 392px;
+        padding-right:392px;
+        padding-bottom: 140px;}
+
+        .contacto-3 {color:#7f5af0;
+            font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;}
+
+        .texto-form-1{color: #fffffe;
+            padding-bottom: 13px;}
+
+
+            footer{background-color: #242629;
+            color: #fffffe;
+    }
+
+    .parent-2 {
+        display: grid;
+        grid-template-columns: 3fr repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 6px;
+        grid-row-gap: 0px;
+        }
