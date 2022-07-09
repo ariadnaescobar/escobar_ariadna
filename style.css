@@ -124,6 +124,7 @@ font-size: 40pt;
     padding-right: 19px;
 }
 
+
 .nosotras-2{padding-left: 392px;
 padding-right:392px;
 padding-bottom: 140px;}
@@ -233,7 +234,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-.botonform {
+.botonform {color: #fffffe;
     display: block;
     width: 160px;
     height: 30px;
@@ -242,6 +243,7 @@ textarea {
     background-color: #7f5af0;
     margin-top: 10px;
     border-radius: 5px;
+    border-color: #7f5af0;
     cursor: pointer;
 }
 
@@ -290,6 +292,8 @@ textarea {
             padding-bottom: 13px;}
 
 
+     /*footer*/
+       
             footer{background-color: #242629;
             color: #fffffe;
     }
@@ -301,3 +305,5 @@ textarea {
         grid-column-gap: 6px;
         grid-row-gap: 0px;
         }
+
+             /*fin footer*/
